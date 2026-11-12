@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azhar Cloth Shop | Quality Fabrics for Every Season</title>
+  <meta name="description" content="Azhar Cloth Shop - lawn, cotton, wash &amp; wear, khaddar, linen and more. Quality unstitched fabric at fair prices.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;600&family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a href="#top" class="logo">
+      <span class="logo-mark">A</span>
+      <span class="logo-text">Azhar <small>Cloth Shop</small></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#why">Why Us</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact" class="btn btn-small">Visit Us</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Trusted fabric house</p>
+        <h1>Fabrics you can <em>feel</em> the quality in.</h1>
+        <p class="urdu" lang="ur" dir="rtl">ہر موسم کا بہترین کپڑا، مناسب قیمت پر</p>
+        <p class="lead">From soft summer lawn to warm winter khaddar, find unstitched cloth for the whole family, all under one roof.</p>
+        <div class="hero-actions">
+          <a href="#collections" class="btn">Browse Collections</a>
+          <a href="#" class="btn btn-ghost" data-whatsapp>Order on WhatsApp</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>Every season</strong><span>Fresh stock</span></li>
+          <li><strong>Men &amp; Women</strong><span>Unstitched</span></li>
+          <li><strong>Fair price</strong><span>No surprises</span></li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="swatch s1"></div>
+        <div class="swatch s2"></div>
+        <div class="swatch s3"></div>
+        <div class="swatch s4"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLECTIONS -->
+  <section class="section" id="collections">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Our Collections</p>
+        <h2>Something for every occasion</h2>
+        <p class="muted">Tap a category and message us on WhatsApp to ask about colours, designs and rates.</p>
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="summer">Summer</button>
+        <button class="chip" data-filter="winter">Winter</button>
+        <button class="chip" data-filter="men">Men</button>
+        <button class="chip" data-filter="women">Women</button>
+      </div>
+
+      <div class="cards" id="cards">
+        <article class="card" data-tags="summer women">
+          <div class="card-art fab-lawn"></div>
+          <div class="card-body">
+            <h3>Lawn</h3>
+            <p>Light, breathable printed and embroidered lawn for hot days.</p>
+            <a href="#" class="card-link" data-whatsapp data-item="Lawn">Ask about Lawn &rarr;</a>
+          </div>
+        </article>
+        <article class="card" data-tags="summer men women">
+          <div class="card-art fab-cotton"></div>
+          <div class="card-body">
+            <h3>Cotton</h3>
+            <p>Everyday cotton in plain and printed styles, soft on the skin.</p>
+            <a href="#" class="card-link" data-whatsapp data-item="Cotton">Ask about Cotton &rarr;</a>
+          </div>
+        </article>
+        <article class="card" data-tags="summer winter men">
+          <div class="card-art fab-wash"></div>
+          <div class="card-body">
+            <h3>Wash &amp; Wear</h3>
+            <p>Crisp, long-lasting gents suiting that stays neat wash after wash.</p>
+            <a href="#" class="card-link" data-whatsapp data-item="Wash & Wear">Ask about Wash &amp; Wear &rarr;</a>
+          </div>
+        </article>
+        <article class="card" data-tags="winter men women">
+          <div class="card-art fab-khaddar"></div>
+          <div class="card-body">
+            <h3>Khaddar</h3>
+            <p>Warm, textured khaddar for cold mornings and winter weddings.</p>
+            <a href="#" class="card-link" data-whatsapp data-item="Khaddar">Ask about Khaddar &rarr;</a>
+          </div>
+        </article>
+        <article class="card" data-tags="winter men women">
+          <div class="card-art fab-karandi"></div>
+          <div class="card-body">
+            <h3>Karandi &amp; Marina</h3>
+            <p>Cosy winter weaves with a rich, premium hand-feel.</p>
+            <a href="#" class="card-link" data-whatsapp data-item="Karandi & Marina">Ask about Karandi &rarr;</a>
+          </div>
+        </article>
+        <article class="card" data-tags="summer men women">
+          <div class="card-art fab-linen"></div>
+          <div class="card-body">
+            <h3>Linen</h3>
+            <p>Natural, airy linen with an elegant drape.</p>
+            <a href="#" class="card-link" data-whatsapp data-item="Linen">Ask about Linen &rarr;</a>
+          </div>
+        </article>
+        <article class="card" data-tags="women winter summer">
+          <div class="card-art fab-silk"></div>
+          <div class="card-body">
+            <h3>Silk &amp; Formal</h3>
+            <p>Shimmering silk, chiffon and formal fabrics for special days.</p>
+            <a href="#" class="card-link" data-whatsapp data-item="Silk & Formal">Ask about Silk &rarr;</a>
+          </div>
+        </article>
+        <article class="card" data-tags="men">
+          <div class="card-art fab-shawl"></div>
+          <div class="card-body">
+            <h3>Shawls &amp; Chadars</h3>
+            <p>Gents shawls and chadars to finish the winter look.</p>
+            <a href="#" class="card-link" data-whatsapp data-item="Shawls & Chadars">Ask about Shawls &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section-alt" id="about">
+    <div class="container about-grid">
+      <div class="about-art" aria-hidden="true">
+        <div class="stitch"></div>
+        <p class="about-quote">&ldquo;Good cloth speaks for itself.&rdquo;</p>
+      </div>
+      <div>
+        <p class="eyebrow">About the shop</p>
+        <h2>Azhar Cloth Shop</h2>
+        <p>We are a neighbourhood cloth shop that believes in honest quality and fair rates. Every roll on our shelves is picked with care, so you can sew with confidence whether it is for daily wear, Eid, or a wedding.</p>
+        <p>Come in, touch the fabric, compare colours in daylight and take your time. Our team will help you work out the right meterage for your suit.</p>
+        <ul class="ticks">
+          <li>Seasonal stock for men, women and kids</li>
+          <li>Help with meterage and fabric matching</li>
+          <li>Friendly, no-pressure service</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Why choose us</p>
+        <h2>What you can count on</h2>
+      </div>
+      <div class="features">
+        <div class="feature"><span class="icon">&#9733;</span><h3>Quality checked</h3><p>Fabric is inspected for colour, weave and finish before it reaches the shelf.</p></div>
+        <div class="feature"><span class="icon">&#9878;</span><h3>Fair pricing</h3><p>Clear rates per meter with no hidden extras.</p></div>
+        <div class="feature"><span class="icon">&#10084;</span><h3>Wide variety</h3><p>Hundreds of colours and designs across every season.</p></div>
+        <div class="feature"><span class="icon">&#9742;</span><h3>Easy ordering</h3><p>Message us on WhatsApp and we will guide you.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section section-dark" id="reviews">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow gold">Customer words</p>
+        <h2>Loved by our regulars</h2>
+      </div>
+      <div class="reviews">
+        <blockquote>
+          <p>Sample review: replace this with a real customer comment.</p>
+          <cite>Customer name</cite>
+        </blockquote>
+        <blockquote>
+          <p>Sample review: replace this with a real customer comment.</p>
+          <cite>Customer name</cite>
+        </blockquote>
+        <blockquote>
+          <p>Sample review: replace this with a real customer comment.</p>
+          <cite>Customer name</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <p class="eyebrow">Visit or message us</p>
+        <h2>Come say salam</h2>
+        <ul class="contact-list">
+          <li><strong>Address</strong><span id="shopAddress">Shop address here</span></li>
+          <li><strong>Phone / WhatsApp</strong><span id="shopPhone">03XX-XXXXXXX</span></li>
+          <li><strong>Hours</strong><span>Mon&ndash;Sat: 10:00 AM &ndash; 9:00 PM<br>Sunday: please call ahead</span></li>
+        </ul>
+        <a href="#" class="btn" data-whatsapp>Chat on WhatsApp</a>
+      </div>
+
+      <form class="form" id="enquiryForm">
+        <h3>Send an enquiry</h3>
+        <label>Your name
+          <input type="text" id="fName" placeholder="e.g. Ali" required>
+        </label>
+        <label>What are you looking for?
+          <select id="fItem">
+            <option>Lawn</option>
+            <option>Cotton</option>
+            <option>Wash &amp; Wear</option>
+            <option>Khaddar</option>
+            <option>Karandi / Marina</option>
+            <option>Linen</option>
+            <option>Silk / Formal</option>
+            <option>Shawls / Chadars</option>
+          </select>
+        </label>
+        <label>Message
+          <textarea id="fMsg" rows="4" placeholder="Colour, number of suits, budget..."></textarea>
+        </label>
+        <button type="submit" class="btn">Send via WhatsApp</button>
+        <p class="tiny muted">This opens WhatsApp with your message ready to send.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-wrap">
+    <p>&copy; <span id="year"></span> Azhar Cloth Shop. All rights reserved.</p>
+    <a href="#top">Back to top &uarr;</a>
+  </div>
+</footer>
+
+<a href="#" class="wa-float" data-whatsapp aria-label="Chat on WhatsApp">WhatsApp</a>
+
+<script src="script.js"></script>
+</body>
+</html>
